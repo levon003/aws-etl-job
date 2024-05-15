@@ -26,3 +26,10 @@ To view the most recent logs:
 ```bash
 copilot job logs
 ```
+
+For example:
+
+```bash
+% copilot job logs --env aws-etl-job --name aws-etl-job
+copilot/aws-etl-job/6f8d4 Hello world!
+```
