@@ -11,4 +11,4 @@ RUN pip install poetry
 
 RUN poetry install
 
-ENTRYPOINT ["poetry", "run", "python" "src/scripy.py"]
+ENTRYPOINT ["poetry", "run", "python", "src/script.py"]
